@@ -1,4 +1,4 @@
-<img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6483770.svg">\
+<img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6483770.svg">
 
 # MACS 30200 "Perspectives on Computational Research": Cross-Partisan Social Networks and Legislative Effectiveness
 
@@ -35,11 +35,11 @@ If you use this repository for a scientific publication, we would appreciate it 
 
 For committee-based network analysis, for each legislator, I calculated the number of connections one has based on the committees one serve in, and used record linkage to connect the number of connections with legislative effectiveness score based on the name of the legislator, store the result in a csv file and perform some initial analysis.\
 Distribution of Number of Connections for All Legislators:\
-<img src="https://github.com/macs30200-s22/replication-materials-LynetteDang/blob/master/result/hist_conn.png">\
+<img src="https://github.com/macs30200-s22/replication-materials-LynetteDang/blob/master/results/hist_conn.png">\
 Distribution of Legislative Effectiveness Score (out of 10) for All Legislators:\
-<img src="https://github.com/macs30200-s22/replication-materials-LynetteDang/blob/master/result/hist_les.png">\
+<img src="https://github.com/macs30200-s22/replication-materials-LynetteDang/blob/master/results/hist_les.png">\
 Number of Connections and Legislative Effectiveness Score (out of 10) for All Legislators:\
-<img src="https://github.com/macs30200-s22/replication-materials-LynetteDang/blob/master/result/scatterplot.png">
+<img src="https://github.com/macs30200-s22/replication-materials-LynetteDang/blob/master/results/scatterplot.png">
 
 | Test                 | Correlation Coefficient | P_value             |
 | -------------------- | ----------------------- | ------------------- |
