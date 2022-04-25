@@ -11,3 +11,18 @@ The code is written in Python 3.9.7 and all of its dependencies can be installed
 ```
 pip install -r requirements.txt
 ```
+
+You can then use the `generate_result` function in the `analysis` module will reproduce all the findings (one scatterplot, two histograms, and one csv) under subdirectory ```result``` 
+
+
+```python
+python3 analysis.py
+```
+
+
+
+![png](README_files/output_3_0.png)
+
+
+
+Alternatively, to replicate the analysis and produce all of the figures and quantitative analyses from the (hypothetical) publication that this code supplements, build and run the `Dockerfile` included in this repository via the instructions in the file).
