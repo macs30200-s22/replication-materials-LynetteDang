@@ -23,18 +23,21 @@ def generate_result(x, y):
 
     df = pd.DataFrame(
         df, columns=['Test', 'correlation coefficient', 'p_value'])
-    df.to_csv('result/correlation_results.csv')
+    df.to_csv('results/correlation_results.csv')
     sns.set_theme()
     scat = sns.scatterplot(
         data=df_analysis, x="Number of Connections", y="Legislative Effectiveness Score")
-    plot.savefig("result/scatterplot.png")
+    plot.savefig("results/scatterplot.png")
     plot.clf()
     hist_conn = sns.histplot(data=df_analysis, x="Number of Connections")
-    plot.savefig("result/hist_conn.png")
+    plot.savefig("results/hist_conn.png")
     plot.clf()
     hist_les = sns.histplot(
         data=df_analysis, x="Legislative Effectiveness Score")
-    plot.savefig("result/hist_les.png")
+    plot.savefig("results/hist_les.png")
 
 
-generate_result(x, y)
+if __name__ == "__main__":
+    # When running script in Docker Container, save figure to /results/
+    # directory
+    generate_result(x, y)

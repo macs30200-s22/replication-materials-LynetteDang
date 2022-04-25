@@ -1,7 +1,7 @@
 FROM docker.io/python:3.9.7
 
 # Set Working Directory
-WORKDIR /usr/src/app
+WORKDIR /results
 
 # Install Python Dependencies
 COPY requirements.txt ./
@@ -16,5 +16,5 @@ CMD python analysis.py
 # Using Docker (in same directory as Dockerfile), build the images with:
 # > docker build --tag macs30200 .
 # Replicate analysis in docker container and reproduce figures:
-# > docker run --volume $(pwd):/figures/ macs30200
-# Figures are saved to same directory as Dockerfile
+# > docker run --volume "$(pwd):/results/" macs30200
+# Figures are saved to "results" subdirectory as Dockerfile
