@@ -21,7 +21,7 @@ python3 analysis.py
 
 
 
-![png](README_files/output_3_0.png)
+[Distribution of Number of Connections for All Legislators](https://github.com/macs30200-s22/replication-materials-LynetteDang/blob/master/result/hist_conn.png)
 
 
 
