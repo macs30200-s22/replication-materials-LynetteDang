@@ -28,7 +28,7 @@ Distribution of Number of Connections for All Legislators:\
 Distribution of Legislative Effectiveness Score (out of 10) for All Legislators:\
 <img src="https://github.com/macs30200-s22/replication-materials-LynetteDang/blob/master/result/hist_les.png">\
 Number of Connections and Legislative Effectiveness Score (out of 10) for All Legislators:\
-<img src="https://github.com/macs30200-s22/replication-materials-LynetteDang/blob/master/result/scatterplot.png">\
+<img src="https://github.com/macs30200-s22/replication-materials-LynetteDang/blob/master/result/scatterplot.png">
 
 | Test  | Correlation Coefficient | P_value |
 | ------------- | ------------- | ------------- |
