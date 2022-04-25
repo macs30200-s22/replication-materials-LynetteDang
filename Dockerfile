@@ -16,5 +16,6 @@ CMD python analysis.py
 # Using Docker (in same directory as Dockerfile), build the images with:
 # > docker build --tag macs30200 .
 # Replicate analysis in docker container and reproduce figures:
+# > mkdir results
 # > docker run --volume "$(pwd):/results/" macs30200
 # Figures are saved to "results" subdirectory as Dockerfile
