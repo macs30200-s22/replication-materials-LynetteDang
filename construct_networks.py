@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup
 
 # import other libraries
 import json
-from util import web_crawl, web_scrape, construct_committee_network, construct_ind_network
+from helper.util_network import web_crawl, web_scrape, construct_committee_network, construct_ind_network
 
 url = "https://ballotpedia.org/116th_United_States_Congress"
 headers = {"User-Agent": "web scraper for classroom purposes"}

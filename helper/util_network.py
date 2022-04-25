@@ -1,5 +1,5 @@
 """
-Name: util.py
+Name: util_network.py
 Author: Lynette Dang
 
 Utility functions to help construct the committee-based networks
