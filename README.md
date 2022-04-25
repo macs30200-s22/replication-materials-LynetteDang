@@ -21,8 +21,8 @@ python3 analysis.py
 
 
 
-[Distribution of Number of Connections for All Legislators](https://github.com/macs30200-s22/replication-materials-LynetteDang/blob/master/result/hist_conn.png)
-
+Distribution of Number of Connections for All Legislators:
+<img src="https://github.com/macs30200-s22/replication-materials-LynetteDang/blob/master/result/hist_conn.png">
 
 
 Alternatively, to replicate the analysis and produce all of the figures and quantitative analyses from the (hypothetical) publication that this code supplements, build and run the `Dockerfile` included in this repository via the instructions in the file).
