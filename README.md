@@ -1,4 +1,4 @@
-<img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6483770.svg">
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6483770.svg)](https://doi.org/10.5281/zenodo.6483770)
 
 # MACS 30200 "Perspectives on Computational Research": Cross-Partisan Social Networks and Legislative Effectiveness
 
