@@ -29,7 +29,7 @@ Distribution of Legislative Effectiveness Score (out of 10) for All Legislators:
 Number of Connections and Legislative Effectiveness Score (out of 10) for All Legislators:\
 <img src="https://github.com/macs30200-s22/replication-materials-LynetteDang/blob/master/result/scatterplot.png">\
 \
-| Test  | Correlation Coefficient | P_value
-| ------------- | ------------- |
-0 | Pearson Correlation | -0.032418072507163775 | 0.47812566986331323
-1 | Spearman Correlation | 0.02959769709785644 | 0.5172559149646156
+| Test  | Correlation Coefficient | P_value |
+| ------------- | ------------- | ------------- |
+| Pearson Correlation | -0.032418072507163775 | 0.47812566986331323 |
+| Spearman Correlation | 0.02959769709785644 | 0.5172559149646156 |
