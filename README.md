@@ -18,11 +18,18 @@ You can then use the `generate_result` function in the `analysis` module will re
 ```python
 python3 analysis.py
 ```
+Alternatively, you can find the printed results in ```analysis.ipynb```
+Alternatively, to replicate the analysis and produce all of the figures and quantitative analyses from the (hypothetical) publication that this code supplements, build and run the `Dockerfile` included in this repository via the instructions in the file).
 
-
-
+## Results
 Distribution of Number of Connections for All Legislators:
 <img src="https://github.com/macs30200-s22/replication-materials-LynetteDang/blob/master/result/hist_conn.png">
+Distribution of Legislative Effectiveness Score (out of 10) for All Legislators:
+<img src="https://github.com/macs30200-s22/replication-materials-LynetteDang/blob/master/result/hist_les.png">
+Number of Connections and Legislative Effectiveness Score (out of 10) for All Legislators:
+<img src="https://github.com/macs30200-s22/replication-materials-LynetteDang/blob/master/result/scatterplot.png">
 
-
-Alternatively, to replicate the analysis and produce all of the figures and quantitative analyses from the (hypothetical) publication that this code supplements, build and run the `Dockerfile` included in this repository via the instructions in the file).
+| Test  | Correlation Coefficient | P_value
+| ------------- | ------------- |
+0 | Pearson Correlation | -0.032418072507163775 | 0.47812566986331323
+1 | Spearman Correlation | 0.02959769709785644 | 0.5172559149646156
