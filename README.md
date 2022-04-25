@@ -24,9 +24,9 @@ You can then use the `generate_result` function in the `analysis` module will re
 python3 analysis.py
 ```
 
-To view the results, you can find the printed table and graphs in `analysis.ipynb`.\
+To view the results, you can find the printed table and graphs in `analysis.ipynb`.
 
-Alternatively, to replicate the analysis and produce all of the figures and quantitative analyses from the (hypothetical) publication that this code supplements, build and run the `Dockerfile` included in this repository via the instructions in the file).\
+Alternatively, to replicate the analysis and produce all of the figures and quantitative analyses from the (hypothetical) publication that this code supplements, build and run the `Dockerfile` included in this repository via the instructions in the file).
 
 If you use this repository for a scientific publication, we would appreciate it if you cited the [Zenodo DOI](https://doi.org/10.5281/zenodo.6483770)
 ) (see the "Cite as" section on our Zenodo page for more details).
