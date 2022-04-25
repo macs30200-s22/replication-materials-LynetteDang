@@ -18,8 +18,8 @@ You can then use the `generate_result` function in the `analysis` module will re
 ```python
 python3 analysis.py
 ```
-Alternatively, you can find the printed results in ```analysis.ipynb```
-Alternatively, to replicate the analysis and produce all of the figures and quantitative analyses from the (hypothetical) publication that this code supplements, build and run the `Dockerfile` included in this repository via the instructions in the file).
+Alternatively, to replicate the analysis, you can find the printed results in ```analysis.ipynb```.\
+
 
 ## Results
 For committee-based network analysis, for each legislator, I calculated the number of connections one has based on the committees one serve in, and used record linkage to connect the number of connections with legislative effectiveness score based on the name of the legislator, store the result in a csv file and perform some initial analysis.\
