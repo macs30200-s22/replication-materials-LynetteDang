@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup
 
 # import other libraries
 import json
-from helper.util_network import web_crawl, web_scrape, construct_committee_network, construct_ind_network
+from helper.util_network import construct_conn_network, web_crawl, web_scrape, construct_committee_network, construct_ind_network
 
 url = "https://ballotpedia.org/116th_United_States_Congress"
 headers = {"User-Agent": "web scraper for classroom purposes"}
@@ -26,7 +26,11 @@ committee_links = web_crawl(soup, committees)
 committees = web_scrape(committee_links, committees, headers)
 comm_network = construct_committee_network(committees)
 ind_network = construct_ind_network(comm_network)
+conn_network = construct_conn_network(comm_network)
+
 with open("comm_network.json", "w") as outfile1:
     json.dump(comm_network, outfile1)
 with open("ind_network.json", "w") as outfile2:
     json.dump(ind_network, outfile2)
+with open("conn_network.json", "w") as outfile3:
+    json.dump(conn_network, outfile3)

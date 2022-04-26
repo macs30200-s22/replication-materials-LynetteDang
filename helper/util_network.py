@@ -60,7 +60,6 @@ def construct_committee_network(committees):
     """
     Clean up and construct the networks based on the dictionary returned by
     web_scrape, unit of analysis is committee
-
     Inputs:
         committees: a dictionary with keys being the name of the committee and
         values being the names of its members, this dictionary will need further
@@ -75,13 +74,12 @@ def construct_committee_network(committees):
         # some regex cleanup to do, because scraped member names contain their positions in the committee as well
         for mem in mems:
             val = mem.text
-            val = re.sub(r'\s+$', '', val)
+            if " Vice" in val:
+                val = val.replace(" Vice", "")
             if " Ranking Member" in val:
                 val = val.replace(" Ranking Member", "")
             if " Vice Chairman" in val:
                 val = val.replace(" Vice Chairman", "")
-            if " Vice" in val:
-                val = val.replace(" Vice", "")
             if " Chair" in val:
                 val = val.replace(" Chair", "")
             if " Vice Chair" in val:
@@ -90,11 +88,12 @@ def construct_committee_network(committees):
                 val.replace(" Ex Officio", "")
             if " Interim chairman" in val:
                 val.replace(" Interim chairman", "")
+            val = re.sub(r'\s+$', '', val)
             network[comm].append(val)
     return network
 
 
-def construct_ind_network(network):
+def construct_conn_network(network):
     """
     Clean up and construct a dictionary for individual legislators' connections
 
@@ -102,15 +101,39 @@ def construct_ind_network(network):
         network: a dictionary with keys being the name of the committee and
         values being the names of its members, all cleaned up
     Outputs:
-        ind_network: a dictionary with keys being individual legislators, and
+        conn_network: a dictionary with keys being individual legislators, and
         values being the number of inner-committee connections one has
     """
 
-    ind_network = {}
+    conn_network = {}
     for com, mems in network.items():
         for mem in mems:
-            if mem not in ind_network:
-                ind_network[mem] = len(network[com]) - 1
+            if mem not in conn_network:
+                conn_network[mem] = len(network[com]) - 1
             else:
-                ind_network[mem] = ind_network[mem] + len(network[com]) - 1
-    return ind_network
+                conn_network[mem] = conn_network[mem] + len(network[com]) - 1
+    return conn_network
+
+
+def construct_ind_network(comm_network):
+    """
+    Clean up and construct a dictionary for individual legislators' connections
+
+    Inputs:
+        network: a dictionary with keys being the name of the committee and
+        values being the names of its members, all cleaned up
+    Outputs:
+        conn_network: a dictionary with keys being individual legislators, and
+        values being the list of legislators they are on at least one committee
+        with
+    """
+    network = {}
+    for comm, mems in comm_network.items():
+        list_of_legislators = comm_network[comm]
+        for mem in mems:
+            if mem not in network:
+                network[mem] = []
+            for l in list_of_legislators:
+                if l != mem and l not in network[mem]:
+                    network[mem].append(l)
+    return network
