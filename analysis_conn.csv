@@ -1,4 +1,4 @@
-,Legislator name,Number of Connections,Legislator name,Legislative Effectiveness Score
+,Legislator name,Connections,Legislator name,Legislative Effectiveness Score
 0,Jack Reed,80,Jack Reed,0.346327006816864
 1,Kirsten Gillibrand,98,Kirsten Gillibrand,0.3387629985809326
 2,Tammy Duckworth,114,Tammy Duckworth,1.5297290086746216
@@ -42,34 +42,34 @@
 40,Mitch McConnell,104,Mitch McConnell,0.20445699989795685
 41,John Boozman,104,John Boozman,0.25707000494003296
 42,John Thune,115,John Thune,0.949413001537323
-43,Chuck Grassley,88,Chuck Grassley,2.2142789363861084
+43,Chuck Grassley,79,Chuck Grassley,2.2142789363861084
 44,Mike Braun,114,Mike Braun,1.0564130544662476
 45,Cindy Hyde-Smith,105,Cindy Hyde-Smith,0.11927299946546555
 46,John Hoeven,87,John Hoeven,1.268555998802185
-47,Tom Udall,140,Tom Udall,1.4404200315475464
-48,Jon Tester,132,Jon Tester,1.7731460332870483
-49,Catherine Cortez Masto,100,Catherine Cortez Masto,1.9014830589294434
-50,John Barrasso,52,John Barrasso,1.468714952468872
-51,Lisa Murkowski,64,Lisa Murkowski,2.5613160133361816
-52,James Lankford,82,James Lankford,1.1228770017623901
-53,Steve Daines,88,Steve Daines,1.1340919733047485
-54,Jerry Moran,132,Jerry Moran,2.0140790939331055
-55,Patty Murray,88,Patty Murray,0.3611859977245331
-56,Bernie Sanders,97,Bernard Sanders,0.1361510008573532
-57,Kyrsten Sinema,117,Kyrsten Sinema,1.2197409868240356
-58,Bill Cassidy,103,Bill Cassidy,1.0840020179748535
-59,Susan Collinsman,14,Susan Collins,1.3333159685134888
-60,Richard Burr,81,Richard Burr,0.898419976234436
-61,Marco Rubio,65,Marco Rubio,3.5885019302368164
-62,Chris Van Hollen,94,Chris Van Hollen,0.7886059880256653
-63,Mark Warner,107,Mark Walker,0.5657702088356018
-64,Mark Warner,107,Mark Warner,0.3398280143737793
-65,Pat Toomey,71,Pat Toomey,0.9452729821205139
-66,Richard Shelby,71,Richard Shelby,0.09567800164222717
-67,Ben Sasse,82,Ben Sasse,0.16762299835681915
+47,Jon Tester,132,Jon Tester,1.7731460332870483
+48,Catherine Cortez Masto,100,Catherine Cortez Masto,1.9014830589294434
+49,John Barrasso,52,John Barrasso,1.468714952468872
+50,Lisa Murkowski,64,Lisa Murkowski,2.5613160133361816
+51,James Lankford,82,James Lankford,1.1228770017623901
+52,Steve Daines,88,Steve Daines,1.1340919733047485
+53,Jerry Moran,132,Jerry Moran,2.0140790939331055
+54,Patty Murray,88,Patty Murray,0.3611859977245331
+55,Bernie Sanders,97,Bernard Sanders,0.1361510008573532
+56,Kyrsten Sinema,117,Kyrsten Sinema,1.2197409868240356
+57,Bill Cassidy,103,Bill Cassidy,1.0840020179748535
+58,Susan Collinsman,14,Susan Collins,1.3333159685134888
+59,Richard Burr,81,Richard Burr,0.898419976234436
+60,Marco Rubio,65,Marco Rubio,3.5885019302368164
+61,Chris Van Hollen,94,Chris Van Hollen,0.7886059880256653
+62,Mark Warner,89,Mark Walker,0.5657702088356018
+63,Mark Warner,89,Mark Warner,0.3398280143737793
+64,Pat Toomey,71,Pat Toomey,0.9452729821205139
+65,Richard Shelby,71,Richard Shelby,0.09567800164222717
+66,Ben Sasse,82,Ben Sasse,0.16762299835681915
+67,Tom Udall,128,Tom Udall,1.4404200315475464
 68,Tammy Baldwin,102,Tammy Baldwin,1.0083580017089844
 69,Roger Wickerman,50,Roger Wicker,3.558171033859253
-70,Roy Blunt,107,Roy Blunt,0.7232909798622131
+70,Roy Blunt,98,Roy Blunt,0.7232909798622131
 71,Ted Cruz,129,Ted Cruz,0.633554995059967
 72,Mike Lee,109,Mike Lee,0.7529000043869019
 73,Cory Gardner,90,Cory Gardner,1.839766025543213
@@ -90,7 +90,7 @@
 88,John Barrassoman,20,John Barrasso,1.468714952468872
 89,John Cornyn,66,John Cornyn,2.79012393951416
 90,Mike Crapo,77,Mike Crapo,0.26507899165153503
-91,Chuck Grassleyman,27,Chuck Grassley,2.2142789363861084
+91,Chuck Grassleyman,36,Chuck Grassley,2.2142789363861084
 92,Lindsey Grahamman,21,Lindsey Graham,1.9787240028381348
 93,Eliot Engel,100,Eliot Engel,3.336190700531006
 94,Ilhan Omar,125,Ilhan Omar,0.3280244767665863
