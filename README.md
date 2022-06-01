@@ -33,17 +33,4 @@ If you use this repository for a scientific publication, we would appreciate it 
 
 ## Results
 
-For committee-based network analysis, for each legislator, I calculated the number of connections one has based on the committees one serve in, and used record linkage to connect the number of connections with legislative effectiveness score based on the name of the legislator, store the result in a csv file and perform some initial analysis.\
-Distribution of Number of Connections for All Legislators:\
-<img src="https://github.com/macs30200-s22/replication-materials-LynetteDang/blob/master/results/hist_conn.png">\
-Distribution of Legislative Effectiveness Score (out of 10) for All Legislators:\
-<img src="https://github.com/macs30200-s22/replication-materials-LynetteDang/blob/master/results/hist_les.png">\
-Number of Connections and Legislative Effectiveness Score (out of 10) for All Legislators:\
-<img src="https://github.com/macs30200-s22/replication-materials-LynetteDang/blob/master/results/scatterplot.png">
 
-| Test                 | Correlation Coefficient | P_value             |
-| -------------------- | ----------------------- | ------------------- |
-| Pearson Correlation  | -0.032418072507163775   | 0.47812566986331323 |
-| Spearman Correlation | 0.02959769709785644     | 0.5172559149646156  |
-
-The results indicates that there is no correlation between number of connections within networks and a legislator's legislative effectiveness score, which is surprising. However, I do want to make a note that the current joined csv file mentioned above only contains information of 480 legislators (I have manually checked for these 480 match but will have to go back and check for the `535 - 480 = 55` missing legislators in the future). This can contribute to the null result. Also, I haven't controlled for gender or race, which can be important indictors for legislative effectiveness score.
