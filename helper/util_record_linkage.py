@@ -11,8 +11,9 @@ import json
 
 house = pd.read_excel("House116.xlsx")
 senate = pd.read_excel("Senate116.xlsx")
-house = house[['Legislator name', 'Legislative Effectiveness Score']]
-senate = senate[['Legislator name', 'Legislative Effectiveness Score']]
+house = house[['Legislator name', 'Legislative Effectiveness Score', 'party']]
+senate = senate[['Legislator name',
+                 'Legislative Effectiveness Score', 'party']]
 df_les = pd.concat([house, senate], axis=0)
 with open('conn_network.json') as json_file:
     conn_network = json.load(json_file)
@@ -33,7 +34,7 @@ def record_link(dic, df2, threshold, name):
         /
     """
     df1 = pd.DataFrame(dic.items(), columns=[
-        "Legislator name", "Connections"])
+        "Legislator name", "Connections", "party"])
     df_analysis = fpd.fuzzy_merge(df1, df2,
                                   left_on='Legislator name',
                                   right_on='Legislator name',
