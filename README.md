@@ -6,7 +6,14 @@ Author: Lynette Dang
 
 ## Introduction
 
-My research topic is centered around cross-partisan social networks and legislative effectiveness. In particular, I am interested in investigating, comparing and contrasting two types of social networks and their effect on the legislative effectiveness score of each legislator during a particular period of time: How does issue-oriented cross-partisan social networks and committee-oriented cross-partisan social networks affect legislative effectiveness of each legislator from 116th to 117th Congress (from 2019 to 2022)? Which type of networks has a larger impact on legislative effectiveness? I believe by examining these two types of social networks and their effect on legislative effectiveness, we are one step closer to understanding legislative bargaining, policy making, and political representation on a federal level.
+The US Congress is known for having increasing polarization and thus questionable effectiveness with regard to making and passing bills, approving presidential nominations, as well as budgeting. While studying legislative effectiveness, existing literature focuses on the important personal and institutional attributes such as race, gender, and ethnicity that make some Congressmen and Congresswomen more effective legislators than their peers. However, only a limited amount of attention has been directed to individual-based social networks within Congress. Can issue-oriented and committee-oriented cross-partisan social networks help overcome congressional gridlocks and mitigate polarization? This paper seeks to investigate the impact of these two types of social networks on legislative effectiveness score[^1] of each legislator in the 116th Congress: How does issue-oriented cross-partisan social networks[^2] and committee-oriented cross-partisan social networks affect legislative effectiveness of each legislator in the 116th Congress? Which type of networks has a larger impact on legislative effectiveness? I believe by examining these two types of social networks and their effect on legislative effectiveness, we are one step closer to understanding legislative bargaining, policy making, and political representation on a federal level. Note that I am also proposing to do the same project (or parts of it) for my perspectives and social network analysis class. Eventually, I want to answer this research question for my MA thesis and expand my analysis to include more congressional terms (ideally from 2000-2022).
+
+
+[^1]: Legislative effectiveness score is a measure devised by Volden and Wiseman to account for the combination of a Congress member’s bill progress and the ability to pass more significant bills (Volden and Wiseman, 2009 and 2014). For details, please visit: https://thelawmakers.org/category/legislative-effectiveness-scores# 
+
+[^2]: Here, issue-oriented cross-partisan networks refer to social networks formed by legislators who bring up or discuss the same issues as reflected by Congressional record: the official daily record of the debates and proceedings of the U.S. Congress.
+
+[^3]: https://www.congress.gov/congressional-record/116th-congress/browse-by-date  note that the congressional record are daily-based
 
 ## Dependency
 
@@ -60,4 +67,12 @@ In conclusion, the results from regression analysis has shown that the following
 This finding has significant implication: Rather than personal attributes alone, it suggests a combination of race and centrality measures in committee-based social networks makes a substantial impact on legislative effectiveness. It is evident that an increase in participation in committees and in the connection between House and Senate can potentially improve the effectiveness of elected representatives.
 
 
+
+## Reference
+1. https://github.com/lsc4ss-s21/large-scale-personal-finance/blob/main/4_Pyspark_topic_modeling.ipynb
+2. https://github.com/jchaskell/scraper-cr/blob/master/clean/filterCR_fix.py
+3. https://github.com/unitedstates/congressional-record/tree/master/congressionalrecord
+4. https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/2.Text_Preprocessing_with_SparkNLP_Annotators_Transformers.ipynb#scrollTo=EgdWV7yFix8e
+5. https://medium.com/trustyou-engineering/topic-modelling-with-pyspark-and-spark-nlp-a99d063f1a6e
+6. https://spark.apache.org/docs/latest/api/python/reference/api/pyspark.ml.clustering.LDA.html
 
