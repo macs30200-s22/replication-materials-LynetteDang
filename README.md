@@ -57,12 +57,10 @@ From the table above, we can conclude that he 6 original features (centrality me
 
 However, the interaction effects between between closeness centrality and betweenness centrality as well as between degree centrality and betweenness centrality are remarkable. The large interaction coefficients for both measures each indicates a significant interaction effect between the two features. In other words, the legislators find it easier to reach other legislators (high closeness centrality) and more likely to control information flow (betweenness centrality) are predicted to be more effective legislators by the model. Likewise, the legislators who stand on more and larger congressional committees (high degree centrality) and more likely to control information flow (high betweenness centrality), as well as black legislators who are more likely to control information flow (high betweenness centrality) are predicted to be more effective legislators by the model. 
 
-In conclusion, the results from regression analysis has shown that the following types of legislators are more effective than their peers based on committee-oriented congressional networks:
+In short, the results from regression analysis has shown that the following types of legislators are more effective than their peers based on committee-oriented congressional networks:
 * information leaders who are more reachable
 * information leaders who are involve in more and larger congressional committees
 * black information leaders
-
-This finding has significant implication: Rather than personal attributes alone, it suggests a combination of race and centrality measures in committee-based social networks makes a substantial impact on legislative effectiveness. It is evident that an increase in participation in committees and in the connection between House and Senate can potentially improve the effectiveness of elected representatives.
 
 
 ## Issue-Based Congressional Network
