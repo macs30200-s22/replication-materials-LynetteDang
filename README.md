@@ -29,7 +29,7 @@ To view the results/visualization:
 
 For committee-based networks, you can find the printed table and graphs in [analysis.ipynb](https://github.com/macs30200-s22/replication-materials-LynetteDang/blob/master/committee/analysis.ipynb) and [final_analysis.pdf](https://github.com/macs30200-s22/replication-materials-LynetteDang/blob/master/committee/final_analysis.pdf)
 
-For issue-based networks, you can find the printed table and graphs in [4_construct_network.ipynb](https://github.com/macs30200-s22/replication-materials-LynetteDang/blob/master/issue/4_construct_network.ipynb) and [5_analysis.pdf]([https://github.com/macs30200-s22/replication-materials-LynetteDang/blob/master/committee/final_analysis.pdf](https://github.com/macs30200-s22/replication-materials-LynetteDang/blob/master/issue/5_analysis.pdf)) 
+For issue-based networks, you can find the printed table and graphs in [4_construct_network.ipynb](https://github.com/macs30200-s22/replication-materials-LynetteDang/blob/master/issue/4_construct_network.ipynb) and [5_analysis.pdf](https://github.com/macs30200-s22/replication-materials-LynetteDang/blob/master/issue/5_analysis.pdf)
 
 If you use this repository for a scientific publication, we would appreciate it if you cited the [Zenodo DOI](https://doi.org/10.5281/zenodo.6483770)
 ) (see the "Cite as" section on our Zenodo page for more details).
